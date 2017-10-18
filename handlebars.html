@@ -1,0 +1,47 @@
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Condensed" rel="stylesheet">
+<style>
+    body{
+        background-color:black;
+        color:#DDD;
+        font-family: 'Encode Sans Semi Condensed', sans-serif;
+        margin:0px;
+        padding:0px;
+    }
+    main{
+        margin:50px;
+    }
+    img{
+        -webkit-filter: invert(1);
+        filter:invert();
+        height:400px;
+        width:auto;
+    }
+    h1{
+        display:block;
+        font-size:30px;
+    }
+    p{
+        font-size:15px;
+        width: 400px;
+        margin:30px auto;
+    }
+    div{
+        text-align: center;
+        display:inline-block;
+/*        margin-top:30px;*/
+        width: 49%;
+    }
+</style>
+</head>
+<body>
+    <main>
+        {{#imgs}}
+        <div>
+            <h1>{{alt}}</h1>
+            <img src="{{src}}"/>
+            <p>{{title}}</p>
+        </div>
+        {{/imgs}}
+    </main>
+</body>

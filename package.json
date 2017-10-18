@@ -1,0 +1,17 @@
+{
+  "name": "xckd-screensaver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benjamin Earl",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "handlebars": "^4.0.10",
+    "html2png": "^1.1.2",
+    "request": "^2.81.0"
+  }
+}
